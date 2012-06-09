@@ -1,0 +1,19 @@
+Place PNR
+
+Remove PNR
+
+Session Envirnment
+
+Create session
+
+Signin in Queue
+
+Route PNR
+
+Add itinerary Remark
+
+Remove itinerary Remark
+
+Add / Remove General Remark
+
+Test application which cover all above development beased on research
