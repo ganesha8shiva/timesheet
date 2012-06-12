@@ -22,10 +22,10 @@ Done research how SubmitTerminalTransaction is worked
 
 RYD remark
 
+///////
 
-/////
+new developer changes
 
-new change
-
-/////
+///////
+timesheet1 changes
 timesheet 2 changes
