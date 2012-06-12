@@ -22,3 +22,8 @@ Done research how SubmitTerminalTransaction is worked
 
 RYD remark
 
+///////
+
+new developer changes
+
+///////
