@@ -18,6 +18,9 @@ Change in RY remarks
 - Remove Index displayed infront of remark
 - Remove O character displayed infront of remark
 
+Discuss pertaining MIR xslt transformation 
+
+
 
 
 
