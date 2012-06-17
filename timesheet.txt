@@ -5,6 +5,8 @@ Make queue operation processed base include following opertaion (change request)
 - PNR List
 
 Test out galileo after emulating 
+for PNR sign in, list pnrs
+Error: Access restricted
 
 Verbs are tested on production
 
@@ -19,6 +21,10 @@ Change in RY remarks
 - Remove O character displayed infront of remark
 
 Discuss pertaining MIR xslt transformation 
+
+AmadeusOffer project configuration
+database configuration to kick start changes
+pertaining RY remakrs
 
 
 
