@@ -1,34 +1,10 @@
-Make queue operation processed base include following opertaion (change request)
-- PNR Queue Move
-- PNR remove
-- PNR Count
-- PNR List
+Queue process calls for Galileo integrated in QILive and syc up same with git hub copy after testing on local machine
 
-Test out galileo after emulating 
-for PNR sign in, list pnrs
-Error: Access restricted
+- Deploy same copy on oakland server
 
-Verbs are tested on production
+- GDS.dll module has been deployed
 
-New project AmdesusOffer understand the architecture
-
-Add WS call to get RY remarks in AmadeusOffer 
-Filter remarks with offer
-Break remarks line by line
-
-Change in RY remarks
-- Remove Index displayed infront of remark
-- Remove O character displayed infront of remark
-
-Discuss pertaining MIR xslt transformation 
-
-AmadeusOffer project configuration
-database configuration to kick start changes
-pertaining RY remakrs
-
-
-
-
+- Take back of QILive and put it into session2
 
 
 
