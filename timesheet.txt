@@ -1,10 +1,39 @@
-Queue process calls for Galileo integrated in QILive and syc up same with git hub copy after testing on local machine
-
+Queue process calls for Galileo integrated in QILive and syc up same with git hub and the copy GDS.dll 
 - Deploy same copy on oakland server
-
 - GDS.dll module has been deployed
-
 - Take back of QILive and put it into session2
 
 
 
+Getting fimiliar with QITransform 
+Amadeus Transform started a while back
+
+a really big task is going to be getting the Amadeus Transform we started a while back working with Pipeline...
+
+Familiarize yourself with the QITransform Project to gain better understanding of what we're trying to do and continue building the 1A.xslt file
+
+
+
+- AddItiremark under GlileoCliant , make changes in following file / section
+- GDS / GalileoClient
+- Tested the by calling same function at the end of authentication
+
+private string AddItinRemarks(string remark, string from_queue, string to_queue, string PCC)
+
+- remark
+- from_queue (from where pnr will retrieve)
+- to_queue (where pnr will pushed after remark)
+- pcc
+- Function will add remark to all pnrs in queue
+
+
+- WSQueue changes in QILive
+- Changes in GetQueuedItems to pull PNRs from queue
+- Getxml() return empty instance of XmlDocument() if PNR are listed in 
+- Move UtidDB.InsertBooking() from WSClient to WSQueue
+- WSQueue to store Default Form,Company,Team,Region & Market settings
+- Create config settings and necessary code for WSQueue to do so
+
+- Study / test SessionEmulation_1_0
+This task allows a user to emulate into another Pseudo City Code (PCC) within a session. After emulation, the user in effect becomes a user in that Pseudo City and can manipulate data for the Pseudo City. This task is typically used by Service Bureau Agents to perform duties for multiple Pseudo City Code accounts.
+http://testws.galileo.com/GWSSample/Help/GWSHelp/mergedProjects/TRANSACTIONHELP/SessionEmulation_1_0/SessionEmulation_1_0.htm
