@@ -1,3 +1,5 @@
+new line added
+
 readme text
 
 
@@ -7,3 +9,5 @@ new change
 111111422
 
 before stash2
+
+bla bla bla
