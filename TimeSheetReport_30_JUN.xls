@@ -1,0 +1,224 @@
+<div>
+	<table cellspacing="0" cellpadding="5" border="0" id="ctl00_cplhMaster_grdReports" style="border-width:0px;border-style:None;width:100%;border-collapse:collapse;">
+		<tr class="tebaltobg">
+			<th scope="col">Date</th><th scope="col">Project Name</th><th scope="col">Project Task</th><th scope="col">Activity Name</th><th scope="col">UserName</th><th scope="col">Task Status</th><th scope="col">Loc</th><th scope="col">From Time (HH:MM)</th><th scope="col">To Time (HH:MM)</th><th scope="col">Duration (HH:MM)</th><th scope="col">Description</th><th scope="col">Task Type</th>
+		</tr><tr class="row1" align="left" style="font-size:11px;">
+			<td style="width:13%;">
+                                                <span id="ctl00_cplhMaster_grdReports_ctl02_lblCurrentDate" style="color:#404040;font-family:Verdana;font-size:10px;font-weight:normal;">25/06/2012</span>
+                                            </td><td style="width:15%;">
+                                                <span id="ctl00_cplhMaster_grdReports_ctl02_lblProjectName" style="color:#404040;font-family:Verdana;font-size:10px;font-weight:normal;">.net dedicated developer</span>
+                                            </td><td style="width:15%;">
+                                                <span id="ctl00_cplhMaster_grdReports_ctl02_lblProjectTask" style="color:#404040;font-family:Verdana;font-size:10px;font-weight:normal;">General</span>
+                                            </td><td style="width:10%;">
+                                                <span id="ctl00_cplhMaster_grdReports_ctl02_lblActivityName" style="color:#404040;font-family:Verdana;font-size:10px;font-weight:normal;">Change Request Management</span>
+                                            </td><td style="width:5%;">
+                                                <span id="ctl00_cplhMaster_grdReports_ctl02_lblUserName" style="color:#404040;font-family:Verdana;font-size:10px;font-weight:normal;">Bhumip Safi</span>
+                                            </td><td style="width:5%;">
+                                                <span id="ctl00_cplhMaster_grdReports_ctl02_lblTaskStatus" style="color:#404040;font-family:Verdana;font-size:10px;font-weight:normal;"></span>
+                                            </td><td align="center" style="width:1%;">
+                                                <span id="ctl00_cplhMaster_grdReports_ctl02_lblLoc" style="color:#404040;font-family:Verdana;font-size:10px;font-weight:normal;">51</span>
+                                            </td><td style="width:5%;">
+                                                <span id="ctl00_cplhMaster_grdReports_ctl02_lblFromTime" style="color:#404040;font-family:Verdana;font-size:10px;font-weight:normal;">08:30</span>
+                                            </td><td style="width:5%;">
+                                                <span id="ctl00_cplhMaster_grdReports_ctl02_lblToTime" style="color:#404040;font-family:Verdana;font-size:10px;font-weight:normal;">17:00</span>
+                                            </td><td align="center" style="width:6%;">
+                                                <span id="ctl00_cplhMaster_grdReports_ctl02_lblDuration" style="color:#404040;font-family:Verdana;font-size:10px;font-weight:normal;">8:30</span>
+                                            </td><td style="width:25%;">
+                                                <span id="ctl00_cplhMaster_grdReports_ctl02_lblDescription" style="color:#404040;font-family:Verdana;font-size:10px;font-weight:normal;">WSQueue 
+Need to  make changes in QILive code to remove duplicate PNR/UTID details was pushed in queue.
+
+- PutXml() default push PNR/UTID in messagequeue hence made correction to skip the same
+- Remove code from from GetXml
+- Put all code to process 
+Build changes / Tested on local machine</span>
+                                            </td><td style="width:5%;">
+                                                Other
+                                            </td>
+		</tr><tr class="row2" align="left" style="font-size:11px;">
+			<td style="width:13%;">
+                                                <span id="ctl00_cplhMaster_grdReports_ctl03_lblCurrentDate" style="color:#404040;font-family:Verdana;font-size:10px;font-weight:normal;">26/06/2012</span>
+                                            </td><td style="width:15%;">
+                                                <span id="ctl00_cplhMaster_grdReports_ctl03_lblProjectName" style="color:#404040;font-family:Verdana;font-size:10px;font-weight:normal;">.net dedicated developer</span>
+                                            </td><td style="width:15%;">
+                                                <span id="ctl00_cplhMaster_grdReports_ctl03_lblProjectTask" style="color:#404040;font-family:Verdana;font-size:10px;font-weight:normal;">General</span>
+                                            </td><td style="width:10%;">
+                                                <span id="ctl00_cplhMaster_grdReports_ctl03_lblActivityName" style="color:#404040;font-family:Verdana;font-size:10px;font-weight:normal;">Change Request Management</span>
+                                            </td><td style="width:5%;">
+                                                <span id="ctl00_cplhMaster_grdReports_ctl03_lblUserName" style="color:#404040;font-family:Verdana;font-size:10px;font-weight:normal;">Bhumip Safi</span>
+                                            </td><td style="width:5%;">
+                                                <span id="ctl00_cplhMaster_grdReports_ctl03_lblTaskStatus" style="color:#404040;font-family:Verdana;font-size:10px;font-weight:normal;"></span>
+                                            </td><td align="center" style="width:1%;">
+                                                <span id="ctl00_cplhMaster_grdReports_ctl03_lblLoc" style="color:#404040;font-family:Verdana;font-size:10px;font-weight:normal;">51</span>
+                                            </td><td style="width:5%;">
+                                                <span id="ctl00_cplhMaster_grdReports_ctl03_lblFromTime" style="color:#404040;font-family:Verdana;font-size:10px;font-weight:normal;">08:30</span>
+                                            </td><td style="width:5%;">
+                                                <span id="ctl00_cplhMaster_grdReports_ctl03_lblToTime" style="color:#404040;font-family:Verdana;font-size:10px;font-weight:normal;">16:30</span>
+                                            </td><td align="center" style="width:6%;">
+                                                <span id="ctl00_cplhMaster_grdReports_ctl03_lblDuration" style="color:#404040;font-family:Verdana;font-size:10px;font-weight:normal;">8:00</span>
+                                            </td><td style="width:25%;">
+                                                <span id="ctl00_cplhMaster_grdReports_ctl03_lblDescription" style="color:#404040;font-family:Verdana;font-size:10px;font-weight:normal;">- WSQueue pushed PNR/UTID in incorrect queue hence the WSClient process could not find PNR/UTID message.
+
+- Made changes in script/code of WSQueue and settings in configuration table, such that WSQueue outputqueue and WSClient inputqueue would be the same.
+
+- Build changes / Tested on local machine / Deploy on oakland machine.</span>
+                                            </td><td style="width:5%;">
+                                                Other
+                                            </td>
+		</tr><tr class="row1" align="left" style="font-size:11px;">
+			<td style="width:13%;">
+                                                <span id="ctl00_cplhMaster_grdReports_ctl04_lblCurrentDate" style="color:#404040;font-family:Verdana;font-size:10px;font-weight:normal;">27/06/2012</span>
+                                            </td><td style="width:15%;">
+                                                <span id="ctl00_cplhMaster_grdReports_ctl04_lblProjectName" style="color:#404040;font-family:Verdana;font-size:10px;font-weight:normal;">.net dedicated developer</span>
+                                            </td><td style="width:15%;">
+                                                <span id="ctl00_cplhMaster_grdReports_ctl04_lblProjectTask" style="color:#404040;font-family:Verdana;font-size:10px;font-weight:normal;">General</span>
+                                            </td><td style="width:10%;">
+                                                <span id="ctl00_cplhMaster_grdReports_ctl04_lblActivityName" style="color:#404040;font-family:Verdana;font-size:10px;font-weight:normal;">Change Request Management</span>
+                                            </td><td style="width:5%;">
+                                                <span id="ctl00_cplhMaster_grdReports_ctl04_lblUserName" style="color:#404040;font-family:Verdana;font-size:10px;font-weight:normal;">Bhumip Safi</span>
+                                            </td><td style="width:5%;">
+                                                <span id="ctl00_cplhMaster_grdReports_ctl04_lblTaskStatus" style="color:#404040;font-family:Verdana;font-size:10px;font-weight:normal;"></span>
+                                            </td><td align="center" style="width:1%;">
+                                                <span id="ctl00_cplhMaster_grdReports_ctl04_lblLoc" style="color:#404040;font-family:Verdana;font-size:10px;font-weight:normal;">111</span>
+                                            </td><td style="width:5%;">
+                                                <span id="ctl00_cplhMaster_grdReports_ctl04_lblFromTime" style="color:#404040;font-family:Verdana;font-size:10px;font-weight:normal;">08:30</span>
+                                            </td><td style="width:5%;">
+                                                <span id="ctl00_cplhMaster_grdReports_ctl04_lblToTime" style="color:#404040;font-family:Verdana;font-size:10px;font-weight:normal;">17:30</span>
+                                            </td><td align="center" style="width:6%;">
+                                                <span id="ctl00_cplhMaster_grdReports_ctl04_lblDuration" style="color:#404040;font-family:Verdana;font-size:10px;font-weight:normal;">9:00</span>
+                                            </td><td style="width:25%;">
+                                                <span id="ctl00_cplhMaster_grdReports_ctl04_lblDescription" style="color:#404040;font-family:Verdana;font-size:10px;font-weight:normal;">Work on ".gitingnore" file to make git ingnore unnecessary files and folder, so that git could display clean list of modified files, Follow following flow of commands to achieve the same
+
+1) git rm -r --cached .
+This removes everything from the index, then just run:
+
+2) git add .
+Commit it:
+
+3) git commit -m ".gitignore is now working"
+
+4) git push
+
+Following functionalities have been changes / added in GDS/GalileoClient.cs.
+- Addremarks changes in GalileoClitnt 
+- Remove remarks QI 1 for Galiloe client   
+
+Build / Test / Deploy on oakland machine, also synced up on github</span>
+                                            </td><td style="width:5%;">
+                                                Other
+                                            </td>
+		</tr><tr class="row2" align="left" style="font-size:11px;">
+			<td style="width:13%;">
+                                                <span id="ctl00_cplhMaster_grdReports_ctl05_lblCurrentDate" style="color:#404040;font-family:Verdana;font-size:10px;font-weight:normal;">28/06/2012</span>
+                                            </td><td style="width:15%;">
+                                                <span id="ctl00_cplhMaster_grdReports_ctl05_lblProjectName" style="color:#404040;font-family:Verdana;font-size:10px;font-weight:normal;">.net dedicated developer</span>
+                                            </td><td style="width:15%;">
+                                                <span id="ctl00_cplhMaster_grdReports_ctl05_lblProjectTask" style="color:#404040;font-family:Verdana;font-size:10px;font-weight:normal;">General</span>
+                                            </td><td style="width:10%;">
+                                                <span id="ctl00_cplhMaster_grdReports_ctl05_lblActivityName" style="color:#404040;font-family:Verdana;font-size:10px;font-weight:normal;">Change Request Management</span>
+                                            </td><td style="width:5%;">
+                                                <span id="ctl00_cplhMaster_grdReports_ctl05_lblUserName" style="color:#404040;font-family:Verdana;font-size:10px;font-weight:normal;">Bhumip Safi</span>
+                                            </td><td style="width:5%;">
+                                                <span id="ctl00_cplhMaster_grdReports_ctl05_lblTaskStatus" style="color:#404040;font-family:Verdana;font-size:10px;font-weight:normal;"></span>
+                                            </td><td align="center" style="width:1%;">
+                                                <span id="ctl00_cplhMaster_grdReports_ctl05_lblLoc" style="color:#404040;font-family:Verdana;font-size:10px;font-weight:normal;">51</span>
+                                            </td><td style="width:5%;">
+                                                <span id="ctl00_cplhMaster_grdReports_ctl05_lblFromTime" style="color:#404040;font-family:Verdana;font-size:10px;font-weight:normal;">08:30</span>
+                                            </td><td style="width:5%;">
+                                                <span id="ctl00_cplhMaster_grdReports_ctl05_lblToTime" style="color:#404040;font-family:Verdana;font-size:10px;font-weight:normal;">15:00</span>
+                                            </td><td align="center" style="width:6%;">
+                                                <span id="ctl00_cplhMaster_grdReports_ctl05_lblDuration" style="color:#404040;font-family:Verdana;font-size:10px;font-weight:normal;">6:30</span>
+                                            </td><td style="width:25%;">
+                                                <span id="ctl00_cplhMaster_grdReports_ctl05_lblDescription" style="color:#404040;font-family:Verdana;font-size:10px;font-weight:normal;">Issue Overview (ID: 3231):- change the display for flight duration of offers to format "02.30", just like in the itinerary display, or "02:30" if we need to keep what has been requested in the mock up.
+ 
+Issue Overview (ID: 3230):- Change the display for offers to wording "Non Stop" when number of stops is zero, just like in the itinerary display. Please also see mock ups.
+
+Also take cared off .mir file output.
+
+Build / Test / Deploy on oakland server</span>
+                                            </td><td style="width:5%;">
+                                                Other
+                                            </td>
+		</tr><tr class="row1" align="left" style="font-size:11px;">
+			<td style="width:13%;">
+                                                <span id="ctl00_cplhMaster_grdReports_ctl06_lblCurrentDate" style="color:#404040;font-family:Verdana;font-size:10px;font-weight:normal;">29/06/2012</span>
+                                            </td><td style="width:15%;">
+                                                <span id="ctl00_cplhMaster_grdReports_ctl06_lblProjectName" style="color:#404040;font-family:Verdana;font-size:10px;font-weight:normal;">.net dedicated developer</span>
+                                            </td><td style="width:15%;">
+                                                <span id="ctl00_cplhMaster_grdReports_ctl06_lblProjectTask" style="color:#404040;font-family:Verdana;font-size:10px;font-weight:normal;">General</span>
+                                            </td><td style="width:10%;">
+                                                <span id="ctl00_cplhMaster_grdReports_ctl06_lblActivityName" style="color:#404040;font-family:Verdana;font-size:10px;font-weight:normal;">Change Request Management</span>
+                                            </td><td style="width:5%;">
+                                                <span id="ctl00_cplhMaster_grdReports_ctl06_lblUserName" style="color:#404040;font-family:Verdana;font-size:10px;font-weight:normal;">Bhumip Safi</span>
+                                            </td><td style="width:5%;">
+                                                <span id="ctl00_cplhMaster_grdReports_ctl06_lblTaskStatus" style="color:#404040;font-family:Verdana;font-size:10px;font-weight:normal;"></span>
+                                            </td><td align="center" style="width:1%;">
+                                                <span id="ctl00_cplhMaster_grdReports_ctl06_lblLoc" style="color:#404040;font-family:Verdana;font-size:10px;font-weight:normal;">111</span>
+                                            </td><td style="width:5%;">
+                                                <span id="ctl00_cplhMaster_grdReports_ctl06_lblFromTime" style="color:#404040;font-family:Verdana;font-size:10px;font-weight:normal;">08:30</span>
+                                            </td><td style="width:5%;">
+                                                <span id="ctl00_cplhMaster_grdReports_ctl06_lblToTime" style="color:#404040;font-family:Verdana;font-size:10px;font-weight:normal;">16:30</span>
+                                            </td><td align="center" style="width:6%;">
+                                                <span id="ctl00_cplhMaster_grdReports_ctl06_lblDuration" style="color:#404040;font-family:Verdana;font-size:10px;font-weight:normal;">8:00</span>
+                                            </td><td style="width:25%;">
+                                                <span id="ctl00_cplhMaster_grdReports_ctl06_lblDescription" style="color:#404040;font-family:Verdana;font-size:10px;font-weight:normal;">- start developing 1A_xslt to transform XML file in specified xml format for new retrive_display PNR response document
+- Upgrade QILIve project vs2008 to vs2010 faced some implications
+- Made changes in necessary files to build project successfully on vs2010
+- Build / Synced up with github</span>
+                                            </td><td style="width:5%;">
+                                                Other
+                                            </td>
+		</tr><tr class="row2" align="left" style="font-size:11px;">
+			<td style="width:13%;">
+                                                <span id="ctl00_cplhMaster_grdReports_ctl07_lblCurrentDate" style="color:#404040;font-family:Verdana;font-size:10px;font-weight:bold;">Group wise total :</span>
+                                            </td><td style="width:15%;">
+                                                <span id="ctl00_cplhMaster_grdReports_ctl07_lblProjectName" style="color:#404040;font-family:Verdana;font-size:10px;font-weight:normal;"></span>
+                                            </td><td style="width:15%;">
+                                                <span id="ctl00_cplhMaster_grdReports_ctl07_lblProjectTask" style="color:#404040;font-family:Verdana;font-size:10px;font-weight:normal;"></span>
+                                            </td><td style="width:10%;">
+                                                <span id="ctl00_cplhMaster_grdReports_ctl07_lblActivityName" style="color:#404040;font-family:Verdana;font-size:10px;font-weight:normal;"></span>
+                                            </td><td style="width:5%;">
+                                                <span id="ctl00_cplhMaster_grdReports_ctl07_lblUserName" style="color:#404040;font-family:Verdana;font-size:10px;font-weight:normal;"></span>
+                                            </td><td style="width:5%;">
+                                                <span id="ctl00_cplhMaster_grdReports_ctl07_lblTaskStatus" style="color:#404040;font-family:Verdana;font-size:10px;font-weight:normal;"></span>
+                                            </td><td align="center" style="width:1%;">
+                                                <span id="ctl00_cplhMaster_grdReports_ctl07_lblLoc" style="color:#404040;font-family:Verdana;font-size:10px;font-weight:bold;">375</span>
+                                            </td><td style="width:5%;">
+                                                <span id="ctl00_cplhMaster_grdReports_ctl07_lblFromTime" style="color:#404040;font-family:Verdana;font-size:10px;font-weight:normal;"></span>
+                                            </td><td style="width:5%;">
+                                                <span id="ctl00_cplhMaster_grdReports_ctl07_lblToTime" style="color:#404040;font-family:Verdana;font-size:10px;font-weight:normal;"></span>
+                                            </td><td align="center" style="width:6%;">
+                                                <span id="ctl00_cplhMaster_grdReports_ctl07_lblDuration" style="color:#404040;font-family:Verdana;font-size:10px;font-weight:bold;">40:00</span>
+                                            </td><td style="width:25%;">
+                                                <span id="ctl00_cplhMaster_grdReports_ctl07_lblDescription" style="color:#404040;font-family:Verdana;font-size:10px;font-weight:normal;"></span>
+                                            </td><td style="width:5%;">
+                                                Other
+                                            </td>
+		</tr><tr class="row1" align="left" style="font-size:11px;">
+			<td style="width:13%;">
+                                                <span id="ctl00_cplhMaster_grdReports_ctl08_lblCurrentDate" style="color:#404040;font-family:Verdana;font-size:10px;font-weight:bold;">Grand total  :</span>
+                                            </td><td style="width:15%;">
+                                                <span id="ctl00_cplhMaster_grdReports_ctl08_lblProjectName" style="color:#404040;font-family:Verdana;font-size:10px;font-weight:normal;"></span>
+                                            </td><td style="width:15%;">
+                                                <span id="ctl00_cplhMaster_grdReports_ctl08_lblProjectTask" style="color:#404040;font-family:Verdana;font-size:10px;font-weight:normal;"></span>
+                                            </td><td style="width:10%;">
+                                                <span id="ctl00_cplhMaster_grdReports_ctl08_lblActivityName" style="color:#404040;font-family:Verdana;font-size:10px;font-weight:normal;"></span>
+                                            </td><td style="width:5%;">
+                                                <span id="ctl00_cplhMaster_grdReports_ctl08_lblUserName" style="color:#404040;font-family:Verdana;font-size:10px;font-weight:normal;"></span>
+                                            </td><td style="width:5%;">
+                                                <span id="ctl00_cplhMaster_grdReports_ctl08_lblTaskStatus" style="color:#404040;font-family:Verdana;font-size:10px;font-weight:normal;"></span>
+                                            </td><td align="center" style="width:1%;">
+                                                <span id="ctl00_cplhMaster_grdReports_ctl08_lblLoc" style="color:#404040;font-family:Verdana;font-size:10px;font-weight:bold;">375</span>
+                                            </td><td style="width:5%;">
+                                                <span id="ctl00_cplhMaster_grdReports_ctl08_lblFromTime" style="color:#404040;font-family:Verdana;font-size:10px;font-weight:normal;"></span>
+                                            </td><td style="width:5%;">
+                                                <span id="ctl00_cplhMaster_grdReports_ctl08_lblToTime" style="color:#404040;font-family:Verdana;font-size:10px;font-weight:normal;"></span>
+                                            </td><td align="center" style="width:6%;">
+                                                <span id="ctl00_cplhMaster_grdReports_ctl08_lblDuration" style="color:#404040;font-family:Verdana;font-size:10px;font-weight:bold;">40:00</span>
+                                            </td><td style="width:25%;">
+                                                <span id="ctl00_cplhMaster_grdReports_ctl08_lblDescription" style="color:#404040;font-family:Verdana;font-size:10px;font-weight:normal;"></span>
+                                            </td><td style="width:5%;">
+                                                Other
+                                            </td>
+		</tr>
+	</table>
+</div>

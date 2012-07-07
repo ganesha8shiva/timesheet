@@ -5,6 +5,10 @@ Queue process calls for Galileo integrated in QILive and syc up same with git hu
 
 
 
+<<<<<<< HEAD
+bla bla bla 2 2
+
+=======
 Getting fimiliar with QITransform 
 Amadeus Transform started a while back
 
@@ -165,3 +169,4 @@ QITransformation seperate xmls in below folders
 
 
 cleanup xslt to remove attributes
+>>>>>>> origin/master
