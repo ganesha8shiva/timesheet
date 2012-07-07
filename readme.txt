@@ -11,3 +11,5 @@ new change
 before stash2
 
 bla bla bla
+
+check this out last line
