@@ -1,0 +1,170 @@
+Queue process calls for Galileo integrated in QILive and syc up same with git hub and the copy GDS.dll 
+- Deploy same copy on oakland server
+- GDS.dll module has been deployed
+- Take back of QILive and put it into session2
+
+
+
+Getting fimiliar with QITransform 
+Amadeus Transform started a while back
+
+a really big task is going to be getting the Amadeus Transform we started a while back working with Pipeline...
+
+Familiarize yourself with the QITransform Project to gain better understanding of what we're trying to do and continue building the 1A.xslt file
+
+
+
+- AddItiremark under GlileoCliant , make changes in following file / section
+- GDS / GalileoClient
+- Tested the by calling same function at the end of authentication
+
+private string AddItinRemarks(string remark, string from_queue, string to_queue, string PCC)
+
+- remark
+- from_queue (from where pnr will retrieve)
+- to_queue (where pnr will pushed after remark)
+- pcc
+- Function will add remark to all pnrs in queue
+
+
+- WSQueue changes in QILive
+- Changes in GetQueuedItems to pull PNRs from queue
+- Getxml() return empty instance of XmlDocument() if PNR are listed in 
+- Move UtidDB.InsertBooking() from WSClient to WSQueue
+- WSQueue to store Default Form,Company,Team,Region & Market settings
+- Create config settings and necessary code for WSQueue to do so
+
+- Study / test SessionEmulation_1_0
+This task allows a user to emulate into another Pseudo City Code (PCC) within a session. After emulation, the user in effect becomes a user in that Pseudo City and can manipulate data for the Pseudo City. This task is typically used by Service Bureau Agents to perform duties for multiple Pseudo City Code accounts.
+http://testws.galileo.com/GWSSample/Help/GWSHelp/mergedProjects/TRANSACTIONHELP/SessionEmulation_1_0/SessionEmulation_1_0.htm
+
+
+-------------------------------------------*&&&&&&&&&&&^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+##################################################################################################
+
+WSQueue 
+Need change in code to remove duplicate PNR details was pushed in queue.
+- PutXml() default push PNR/UTID in messagequeue hence made correction to skip the same
+- Remove code from from GetXml
+- Put all code to process 
+Build changes / Tested on local machine
+
+   WSQueue had pushed PNR/UTID in incorrect queue hence the process could not find PNR/UTID message to process 
+   Changes were made WSQueue changes to make WSClient work as outputqueue of WSQueue differed from inputqueue of WSClient
+   Build changes / Tested on local machine / Deploy on oakland machine
+
+
+--------------
+Work on ".gitingnore" file to make git ingnore unnecessary files and folder, so that git could display clean list of modified files, Follow following flow of commands to achieve the same
+
+1) git rm -r --cached .
+This removes everything from the index, then just run:
+
+2) git add .
+Commit it:
+
+3) git commit -m ".gitignore is now working"
+
+4) git push
+
+Following functionalities have been changes / added in GDS/GalileoClient.cs.
+- Addremarks changes in GalileoClitnt 
+- Remove remarks QI 1 for Galiloe client   
+
+Build / Test / Deploy on oakland machine, also synced up on github
+--------------
+
+
+Issue Overview (ID: 3231) 
+Hello,
+
+the flight duration for an offer is currently displayed in format "0230" in the document.
+For an active segment you display flight duration in format "02.30".
+(In the mock up we requested the display to be in format "02:30")
+
+Please change the display for flight duration of offers to format "02.30", just like in the itinerary display, or "02:30" if we need to keep what has been requested in the mock up.
+
+Thanks, Johanna 
+
+
+
+Issue Overview (ID: 3230) 
+Hello,
+
+when the number of stops for an offer is zero, you display number "0" in the document.
+For an active segment you display the words "Non Stop" in the document.
+
+Please change the display for offers to wording "Non Stop" when number of stops is zero, just like in the itinerary display. Please also see mock ups.
+
+Thanks, Johanna
+
+--------------
+- start developing 1A_xslt to transform XML file in specified xml format for new retrive_display PNR response document
+- Upgrade QILIve project vs2008 to vs2010 faced some implications
+- Made changes in necessary files to build project successfully on vs2010
+- Build / Synced up with github
+--------------
+
+
+##################################################################################################
+1A transformation for following section
+- Working address section of 1A xslt
+- offer group has AIR segment 
+- Broken structure need to be rectified with new xslt, made changes in xslt to fill NumberOfLegs (= number of stops)
+- Equipment
+
+1A transformation for following section
+
+ChangeOfGauge
+PNR_RetrieveAndDisplayReply/activePNRimage/dataElementsMaster/dataElementsStruct/seatData/dateGaugeChange
+
+JourneyTime has been mapped with duration
+
+OperatedByAirlines/Airline
+Code , Name
+
+Numberofseats
+
+SegmentNumber
+
+Note:- Could not find email and phone details to parse 
+
+MarriageNumber would be identified by below
+PNR_RetrieveAndDisplayReply/activePNRimage/segmentGroupingInfo
+> marriageDetail
+   > > tatooNum
+   
+   
+   
+   
+   ETKT
+   
+   transaction is used to retrieve the itinerary and the fare construction from the original ticket
+   
+   http://testws.galileo.com/GWSSample/Help/GWSHelp/mergedProjects/TRANSACTIONHELP/ETicketRetrieval_5/ETicketRetrieval_5.htm
+   
+   Request: work session or sessionless environment
+   <ETicketRetrieval_5><EticketRetrievalMods><TicketNumber><TktNum>1111111111111</TktNum></TicketNumber></EticketRetrievalMods></ETicketRetrieval_5>
+
+   
+-  try to do mapping field with doc 
+- call has been genereted for TicketInfoDisplay
+- GDS change 
+- Changes in QILive
+- WSClient
+- Tested on oakland
+- Again made minor changes to find absnamenum 
+
+Following processs have beend configured on local machine to make QITrasformation working   
+QITransformation seperate xmls in below folders
+-> origina_xml
+-> transform_xml
+-> cleanup.xml been removed to remove attributes to make xslt file work for transformation
+
+<PNRBFTicketedInd>Y</PNRBFTicketedInd>   
+
+
+cleanup xslt to remove attributes
+
+
+bla bla bla changes are here
