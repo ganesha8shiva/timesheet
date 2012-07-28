@@ -8,8 +8,8 @@ readme test1
 new change
 111111422
 
+<<<<<<< Updated upstream
 before stash2
-
-bla bla bla
-
-check this out last line
+=======
+before statsh1
+>>>>>>> Stashed changes
