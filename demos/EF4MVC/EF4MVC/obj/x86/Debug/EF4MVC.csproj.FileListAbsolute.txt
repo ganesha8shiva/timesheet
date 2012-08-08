@@ -1,0 +1,8 @@
+C:\bhumip_pro\EF4MVC\EF4MVC\bin\Debug\EF4MVC.exe.config
+C:\bhumip_pro\EF4MVC\EF4MVC\bin\Debug\EF4MVC.exe
+C:\bhumip_pro\EF4MVC\EF4MVC\bin\Debug\EF4MVC.pdb
+C:\bhumip_pro\EF4MVC\EF4MVC\bin\Debug\EntityFramework.dll
+C:\bhumip_pro\EF4MVC\EF4MVC\bin\Debug\EntityFramework.xml
+C:\bhumip_pro\EF4MVC\EF4MVC\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\bhumip_pro\EF4MVC\EF4MVC\obj\x86\Debug\EF4MVC.exe
+C:\bhumip_pro\EF4MVC\EF4MVC\obj\x86\Debug\EF4MVC.pdb

@@ -1,0 +1,7 @@
+C:\bhumip_pro\CodeFirstEFCS\CodeFirstMVC\bin\CodeFirstMVC.dll
+C:\bhumip_pro\CodeFirstEFCS\CodeFirstMVC\bin\CodeFirstMVC.pdb
+C:\bhumip_pro\CodeFirstEFCS\CodeFirstMVC\bin\EntityFramework.dll
+C:\bhumip_pro\CodeFirstEFCS\CodeFirstMVC\bin\EntityFramework.xml
+C:\bhumip_pro\CodeFirstEFCS\CodeFirstMVC\obj\Debug\ResolveAssemblyReference.cache
+C:\bhumip_pro\CodeFirstEFCS\CodeFirstMVC\obj\Debug\CodeFirstMVC.dll
+C:\bhumip_pro\CodeFirstEFCS\CodeFirstMVC\obj\Debug\CodeFirstMVC.pdb

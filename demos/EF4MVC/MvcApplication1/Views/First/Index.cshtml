@@ -1,0 +1,32 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <script src="@Url.Content("~/Scripts/MicrosoftAjax.js")" type="text/javascript"></script>  
+    <script src="@Url.Content("~/Scripts/MicrosoftMvcAjax.js")" type="text/javascript"></script>
+</head>
+<body>
+<h2>@Html.Encode(ViewData["Message"])</h2>
+<p>
+    Page Rendered: @DateTime.Now.ToLongTimeString()
+</p>
+<span id="status">No Status</span>
+<br />   
+@Ajax.ActionLink("Update Status", "GetStatus", new AjaxOptions() {UpdateTargetId="status" })
+<br /><br />
+
+@using (Ajax.BeginForm("UpdateForm", new AjaxOptions() {UpdateTargetId="textEntered"})) {
+  @Html.TextBox("textBox1","Enter text") 
+  <input type="submit" value="Submit"/><br />
+  <span id="textEntered">Nothing Entered</span>
+}
+
+
+
+</body>
+</html>
+
