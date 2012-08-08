@@ -1,4 +1,104 @@
-NHAP change in GalileoClient
+Change in ETKT xsl file to compare BaseFareCurrency and TotCurrency for accurate charges calculation
+
+Issue #: 3450
+Summary: Name not shown in header of the Etkt info
+
+ID: 3532
+Summary: Incorrect font colour on Name
+The name shown in the Etkt template is in grey when it should be black the same as the rest of the line.
+Ticket Information for <NAME>
+
+ID: 3533
+Summary: Too much space between the lines in Etkt template
+Project: AX Itinerary Svcs (Web Svcs & Marketing)
+The space between each line of the Etkt template appears to be nearly double that of the Itinerary segment templates.
+
+ID: 3454
+Summary: Too many digits after the decimal place in Total
+
+ID: 3534
+Summary: <Name> field only holds 16 character
+Project: AX Itinerary Svcs (Web Svcs & Marketing)
+The name field of "Ticket Information for <NAME>" only holds 16 characters.
+The name shown in the itinerary of the same document shows as:
+SATCHWELL/RICHARDMR
+yet the name shown in the Etkt template appears as:
+
+
+ID: 3535
+Summary: Templates not aligned for Multiple tickets
+Project: AX Itinerary Svcs (Web Svcs & Marketing)
+Description: When there are multiple Etkts in the PNR the templates for eticket are not aligned correctly on the CIE document.
+
+Issue #: 3455 
+Summary: Not all Etkts shown in CIE document
+Changed Fields:
+-Summary: Only 1 Etkt shown in CIE document
++Summary: Not all Etkts shown in CIE document
+Description:
+Therefore the Etkt Details template should be repeated for each additional Etkt and the Total Electronic Ticket Charges section should be its own template and only used the once to show the collective total of all tkts.
+Currently only 1 Etkt is shown regardless of how many have been issued within the 1 PNR.
+Note: Patch has been created and under testing
+ 
+ID: 3536
+Summary: Keep header "Total Electronic Ticket Charges" with its value
+Project: AX Itinerary Svcs (Web Svcs & Marketing)
+Description:
+The same has been resolved please refer below mentioned urls
+
+ID: 3537
+Summary: Etkt order within the CIE document
+Project: AX Itinerary Svcs (Web Svcs & Marketing)
+
+ID: 3561  
+Summary: Setup of queues for Japa
+Project: AX Itinerary Svcs (Web Svcs & Marketing)
+Please configure the region and markets for Japa as per attach table so these details will update the summary page in qionline.
+Note:(Only region section has been incuded in WSqueue as other part will be taken care in WSClient process)
+
+
+ID: 3458
+Summary: Zero dollar value shown incorrectly in Charges section
+Project: AX Itinerary Svcs (Web Svcs & Marketing)
+Description:
+When a field has a dollar value of zero it should be shown as 0.00
+Currently it is only one digit in length showing as 0
+
+
+Change WSQueue.cs to make formname, company name, team name default
+
+Change GalileoClient.cs to make process sync with each other, call insert PNR in UTID table & push it in Message queue exactly after prn remove is happened,
+also put breaking point 100 to stop pulling pnrs from Queue
+
+Deploy/Test changes on oakland
+Deploy/Test changes on greenwitch
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Changes in GalileoClient.cs  file pertaining global HAP
+
+
+Setup for PCC 6E9A pcc and tested on local machine
+with and without emulation of pseudo city code
+
+
 
 QueueRemove
 
